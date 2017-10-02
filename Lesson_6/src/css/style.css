@@ -1,0 +1,16 @@
+.fox {
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	position: absolute;
+     
+    left: 50%;
+	margin-left: -150px;
+    top: 50%;
+	margin-top: -200px;	
+	margin: -200px 0 0 -150px;
+	border: 2px solid;
+	border-color: gray;
+	border-width: 2px; 
+	padding: 20px 30px;
+}
