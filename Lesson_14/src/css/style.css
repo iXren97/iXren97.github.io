@@ -1,0 +1,18 @@
+./*Colors*/
+@btn1-color:#70c849;
+@btn2-color:#fbb203;
+@bckgr:#fff;
+
+/*Basic setting*/
+html {
+	font-size: 10px;
+}
+
+/*Typografy*/
+section {
+	padding: 10rem 0;
+}
+/*main*/
+main {
+	padding:3rem 0;
+}
