@@ -1,0 +1,40 @@
+
+
+@font-face {
+			font-family: "BebasRegular";
+			src: url("../fonts/BebasRegular/BebasRegular.eot");
+			src: url("../fonts/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BebasRegular/BebasRegular.woff") format("woff"),
+			url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+			}
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts, .fonts1, .fonts2, .fonts3 {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.fonts .resault {
+	font-family:open sans;
+}
+.fonts1 .resault {
+	font-family:'BebasRegular';
+}
+.fonts2 .resault {
+	font-family:Lato;
+;
+}
+.fonts3 .resault {
+	font-family:Lobster;
+}
+
