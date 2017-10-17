@@ -1,0 +1,43 @@
+body {
+  background-color:##458B74;
+}
+.modal-title {
+  background-color: green;
+  color:white;
+  text-align: center;
+  font-size: 3rem;
+}
+button {
+  background-color:white;
+}
+.btn.btn-success{
+  background-color: black;
+  border: none;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+}
+.modal-body{
+  text-align: center;
+  font-size: 5rem;
+}
+.btn.btn-primary {
+  float:right;
+  height: 50px;
+  width: 70px;
+  margin-right: 150px;
+}
+.btn.btn-default{
+ float:left;
+height: 50px;
+  width: 70px;
+  margin-left: 150px; 
+}
+.close{
+  color:red;
+}
