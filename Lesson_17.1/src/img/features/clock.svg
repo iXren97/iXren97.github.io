@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="66px" height="66px" viewBox="0 0 66 66">
+<filter filterUnits="objectBoundingBox" x="0.00" y="0.00" width="100.00" height="100.00" id="filter0">
+<feImage x="0" y="0" width="66" height="66" preserveApectRatio="none" xlink:href="#symbol0"/>
+<feComposite in="grImage1" in2="SourceAlpha" operator="in" result="grOverlay1"/>
+<feBlend in="grOverlay1" in2="SourceGraphic" mode="normal" result="gradientOverlay1"/>
+</filter>
+<linearGradient id="linear_PSgrad_0" x1="0%" y1="87.6777%" x2="100%" y2="12.3223%">
+    <stop offset="0%" stop-color="rgb(66,175,17)" stop-opacity="1" />
+    <stop offset="100%" stop-color="rgb(74,194,21)" stop-opacity="1" />
+</linearGradient>
+
+<defs>
+<rect x="0" y="0" width="66" height="66" id="symbol0" fill="url(#linear_PSgrad_0)"/></defs>
+<g transform="matrix(0.68 0.00 0.00 0.68 0.00 0.00)" filter="url(#filter0)"><path fillRule="evenodd" d="M 48.5 97C 21.76 97-0 75.24-0 48.5-0 21.76 21.76-0 48.5-0 75.24-0 97 21.76 97 48.5 97 75.24 75.24 97 48.5 97ZM 48.5 10.32C 27.45 10.32 10.32 27.45 10.32 48.5 10.32 69.55 27.45 86.68 48.5 86.68 69.55 86.68 86.68 69.55 86.68 48.5 86.68 27.45 69.55 10.32 48.5 10.32ZM 73.78 54.99C 73.78 54.99 47.99 54.99 47.99 54.99 45.78 54.99 43.99 53.2 43.99 51 43.99 51 43.99 20.79 43.99 20.79 43.99 18.59 45.78 16.8 47.99 16.8 50.19 16.8 51.98 18.59 51.98 20.79 51.98 20.79 51.98 47 51.98 47 51.98 47 73.78 47 73.78 47 75.98 47 77.77 48.79 77.77 51 77.77 53.2 75.98 54.99 73.78 54.99Z" fill="rgb(0,0,0)"/></g></svg>
