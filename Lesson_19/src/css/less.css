@@ -1,0 +1,9 @@
+.input-login,
+.input-password,
+.input-checkbox,
+.btn-danger {
+  display: inline-block;
+}
+.input-login {
+  text-align: center;
+}
