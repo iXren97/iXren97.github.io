@@ -1,0 +1,111 @@
+@font-face {
+  font-family: MyriadPro;
+  src: url('../fonts/MyriadPro/MyriadPro-Regular.otf');
+  font-weight: normal;
+
+font-style: normal;
+}
+.input,
+.input,
+button,
+.zabili {
+  display: block;
+}
+body {
+  background: url(../img/bg-form.png);
+}
+.form {
+  width: 629px;
+  height: 495px;
+  margin: 110px 290px;
+}
+.label_1,
+.label_2 {
+  font-family: 'MyriadPro';
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 0.917;
+  text-align: justify;
+}
+.tab-content {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 24px;
+  border-color: #009ccc;
+  background-color: #000000;
+  margin: 0 auto;
+  width: 629px;
+  height: 444px;	
+  box-shadow: 0 0 100px #D8D8D8;
+}
+.input_1,
+.input_2 {
+  height: 59px;
+  width: 480px;
+  background-color: #000000;
+  border: none;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 29px;
+  margin-left: 43px;
+}
+.zabili {
+  font-family: 'MyriadPro';
+  color: #c51f03;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.467;
+  text-align: justify;
+  margin-left: 67px;
+  margin-bottom: 58px;
+
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #fff;
+  text-shadow: 1px 1px 2px #333;
+  background-color: #03a5da;
+  margin-left: 30px;
+  margin-right: 10px;
+  border: none;
+}
+.nav-tabs > li > a {
+  background-color: #fff;
+  border-top: none;
+}
+.input_1 {
+  margin-top: 7rem;
+}
+.Napomnit {
+  font-family: 'MyriadPro';
+  color: #6f6d6d;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.467;
+  text-align: justify;
+  margin-left: 30px;
+}
+input {
+  margin-left: 200px;
+}
+button {
+  position: relative;
+  width: 125px;
+  height: 36px;
+  left: 500px;
+  bottom: 50px;
+  text-align: center;
+  padding-top: 0px;
+  padding-right: 10px;
+  font-size: 24px;
+  background-color: #ba1b02;
+  color: #ffffff;
+  cursor: pointer;
+  background: radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+  width: 128px;
+  height: 41px;
+  border: none;
+  text-decoration: none;
+}
