@@ -1,10 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	width="11px" height="9px" viewBox="0 0 11 9">
-<filter filterUnits="objectBoundingBox" x="0.00" y="0.00" width="100.00" height="100.00" id="filter0">
-<feFlood flood-color="rgb(37,101,9)" result="coFloodOut1"/>
-<feComposite in="coFloodOut1" in2="SourceAlpha" operator="in" result="coOverlay1"/>
-<feBlend in="coOverlay1" in2="SourceGraphic" mode="normal" result="colorOverlay1"/>
-</filter>
-<g transform="matrix(0.02 0.00 0.00 0.02 0.00 0.00)" filter="url(#filter0)"><path fillRule="evenodd" d="M 7.06 259.21C 2.35 254.5-0 247.44-0 242.74-0 238.03 2.35 230.97 7.06 226.26 7.06 226.26 39.99 193.32 39.99 193.32 49.4 183.91 63.52 183.91 72.93 193.32 72.93 193.32 75.28 195.67 75.28 195.67 75.28 195.67 204.67 334.51 204.67 334.51 209.37 339.22 216.43 339.22 221.13 334.51 221.13 334.51 536.37 7.41 536.37 7.41 536.37 7.41 538.72 7.41 538.72 7.41 538.72 7.41 538.72 7.41 538.72 7.41 538.72 7.41 538.72 7.41 538.72 7.41 548.13-2 562.25-2 571.66 7.41 571.66 7.41 604.59 40.36 604.59 40.36 614 49.77 614 63.89 604.59 73.3 604.59 73.3 604.59 73.3 604.59 73.3 604.59 73.3 604.59 73.3 604.59 73.3 604.59 73.3 228.19 463.94 228.19 463.94 223.49 468.65 218.78 471 211.72 471 204.67 471 199.96 468.65 195.26 463.94 195.26 463.94 11.76 266.27 11.76 266.27 11.76 266.27 7.06 259.21 7.06 259.21Z" fill="rgb(0,0,0)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="49.911" height="38.403" viewBox="0 0 611.656 470.625">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #26650a;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M7.057,259.209a22.753,22.753,0,0,1,0-32.945l32.935-32.946c9.41-9.413,23.525-9.413,32.935,0l2.353,2.354L204.666,334.513a11.369,11.369,0,0,0,16.468,0L536.368,7.413h2.353c9.41-9.413,23.525-9.413,32.935,0l32.935,32.945c9.41,9.413,9.41,23.532,0,32.945h0l-376.4,390.638c-4.705,4.706-9.41,7.059-16.467,7.059s-11.763-2.353-16.468-7.059L11.762,266.269Z" transform="translate(0 -0.375)"/>
+</svg>
