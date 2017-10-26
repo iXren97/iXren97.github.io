@@ -1,69 +1,73 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Табы</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+  
   </head>
 
   <body>
-<div class="form">
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#enter" aria-controls="enter" role="tab" data-toggle="tab">Вход</a></li>
-    <li role="presentation"><a href="#registration" aria-controls="registration" role="tab" data-toggle="tab">Регистрация</a></li>
-  </ul>
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="enter">
-      <div class="enter-form">
-      <input class="input_1 animated shake" type="login" placeholder="Ваше имя" class="label_1">
-      <input class="input_2 animated shake" type="password" placeholder="Пароль">
-      <a href="#" class="zabili">Забыли пароль</a>
-      <input class="input-checkbox" type="checkbox"><label class="Napomnit" for="#">Напомнить мне</label>
-      <button class=" btn-danger animated bounceInUp">Войти</button>
-      </div>
+    <div class="container">
+      <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#" aria-controls="home" role="tab" data-toggle="tab">Вход</a></li>
+          <li role="presentation"><a href="#" aria-controls="profile" role="tab" data-toggle="tab">Регистрация</a></li>
+          
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">
+            <div class="login">
+             <div class="login-form">
+                <form action="#">
+                <input class="login-input animated shake" type="text" placeholder
+                 ="Ваше имя"><br>
+                <input class="login-input animated shake" type="text" placeholder
+                ="Пароль">
+                <p>Забыли пароль?</p>
+                <input type="checkbox" id="prompt">
+                <label for="prompt">Напомнить мне</label>
+                <button class="login-button bounceInUp">Войти</button>
+              </form>
+             </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="profile">
+            <div class="login reg">
+              <div class="login-form reg-form">
+                <form action="#">
+                  <input class="login-input reg-input" type="text" value="E-mail"><br>
+                  <input class="login-input reg-input" type="text" value="Пароль">
+                  <input class="login-input reg-input" type="text" value="Подтвердите пароль">
+                  <button class="login-button reg-button">Регистрация</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>  
+
     </div>
-    <div role="tabpanel" class="tab-pane" id="registration">.sdfsdf..</div>
-  </div>
-</div>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script>
-    	$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
-    </script>
-  </body>
-</html>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>"></script>
+  
+
+
+</body></html>
